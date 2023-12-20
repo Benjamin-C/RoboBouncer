@@ -1,0 +1,13 @@
+main: dev.orangeben.robobouncer.RoboBouncer
+name: RoboBouncer
+api-version: 1.20
+version: 0.1
+commands:
+  robobouncer:
+    description: Reloads the robobouncer config
+    usage: /robobouncer reload
+    permission: robobouncer.reload
+permissions:
+  robobouncer.join:
+    description: Allows the player to join the server
+    default: op
